@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Licorice&family=Open+Sans&family=The+Nautigal&display=swap");
+.display-none {
+  display: none;
+}
+.display-defualt {
+  display: block;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#faq-body {
+  background-color: #dbf0f7;
+  font-family: "Open Sans", sans-serif;
+}
+#faq-main {
+  width: 94%;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 6.2rem;
+}
+.faq-general-header {
+  font-family: "Licorice", "The Nautigal", sans-serif;
+  font-size: 3.2rem;
+  letter-spacing: 3px;
+  color: goldenrod;
+  text-align: center;
+  margin-bottom: 0.7em;
+}
+.faq-article {
+  background-color: white;
+  padding: 1.3em 1em;
+  margin: 2em auto;
+  position: relative;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 2.5px 2.5px grey;
+  box-shadow: 0 2.5px 2.5px grey;
+}
+.faq-article .faq-article-flex-format {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.faq-article .faq-title {
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: clamp(0.8rem, 3.3vw, 1.2rem);
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+.faq-article .faq-more-info-btn {
+  color: goldenrod;
+  font-size: 1.4rem;
+  margin-right: 0.2em;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+.faq-article .faq-more-info-btn:active {
+  opacity: 0.5;
+}
+.faq-article .faq-article-body hr {
+  margin: 1.5rem 0;
+}
+.rotate {
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+/*# sourceMappingURL=style.min.css.map */
